@@ -1,0 +1,58 @@
+/*
+Filename: pacific.css
+Date: 01/29/2017
+Programmer: Abby Mann
+*/
+
+/* Start with the body selector, then p, then h1, h2, h3 and any other heading selectors in numerical order. */
+
+
+body { 
+    background-color: #FFFFFF; 
+    color: #666666; 
+    font-family: sans-serif; 
+}
+
+header { 
+    background-color: #000033; 
+    color: #FFFFFF; 
+    font-family: sans-serif; 
+}
+
+nav { 
+    background-color: #90C7E3; /* This is out of sequence with the directions, but I wanted to keep the order "which appears first in the HTML" */
+    font-weight: bold;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+h2 { 
+    color: #3399CC;
+    font-family: sans-serif;
+}
+
+dt { 
+    color: #000033;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+}
+
+/* He said he wants style, then class, then id last */
+
+.resort { 
+    color: #000033;
+    font-size: 1.2em;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
